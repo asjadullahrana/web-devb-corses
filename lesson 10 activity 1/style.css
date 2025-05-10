@@ -1,0 +1,43 @@
+* {
+    font-family: Arial;
+    background-color: yellowgreen;
+    color: aliceblue;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+a {
+    color: cyan;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: brown;
+}
+
+ul>li {
+    font-weight: bold;
+}
+
+ul>li:hover {
+    color: blue;
+
+}
+
+ul>li::before {
+    content: "🚀";
+}
+
+a::after {
+
+    content: "🚀";
+
+}
+
+p::first-letter {
+    font-size: 70px;
+    color: cadetblue;
+}
